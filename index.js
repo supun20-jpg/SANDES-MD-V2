@@ -144,7 +144,7 @@ conn.ev.on('connection.update', async (update) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
                     require("./plugins/" + plugin);
                 }
-
+           });
 console.log('SUCCESSFULLY INSTALLED PLUGINS 🟢...')  
 console.log('DB CONNECTED SUCCESSFULLY 🔋...') 
 console.log('SANDES MD CONNECTED TO WHATSAPP ✅...')  
